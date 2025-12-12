@@ -1,0 +1,52 @@
+{
+    "patch_id": 63,
+    "name": "Vibraphone",
+    "instrument": "piano",
+    "min-note": 36,
+    "max-note": 96, 
+    "focus-octave": 4,
+    "key-range": 17,
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "description": "Dream vibes",
+    "source": "https://www.pianobook.co.uk/packs/dream-vibes/",
+    "author": "https://www.pianobook.co.uk/profile/benjaminfreeland",
+    "license": "https://www.pianobook.co.uk/about/",
+    "credit" : "Audio source: pianobook.co.uk/packs/dream-vibes",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 1,
+            "a shape": 4,
+            "cx": 68,
+            "cy": 33.0000007152557,
+            "d shape": 2,
+            "id": 0,
+            "level": -4.0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "vibraphone",
+            "samples": [
+                { "sample": "68noteAb4", "step": 68 }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 5,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "patch_id": 204,
+    "created": "2022-02-26 22:36:36.223",
+    "modified": "2022-03-08 11:16:34.432",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "description": "",
+    "instrument": "drums",
+    "name": "Game FX",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 0.994318181818182,
+            "a shape": 4,
+            "cx": 70,
+            "cy": 0,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "detune": 0,
+            "detune-mod": 20,
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "gamefx",
+            "samples": [
+                {
+                    "name": "start",
+                    "sample": "enemy",
+                    "step": 0
+                },
+                {
+                    "name": "life",
+                    "sample": "extra_life",
+                    "step": 1
+                },
+                {
+                    "name": "jump",
+                    "sample": "jump",
+                    "step": 2
+                },
+                {
+                    "name": "heal",
+                    "sample": "heal",
+                    "step": 3
+                },
+                {
+                    "name": "break",
+                    "sample": "break",
+                    "step": 4
+                },
+                {
+                    "name": "drone",
+                    "sample": "drone",
+                    "step": 5
+                },
+                {
+                    "name": "win",
+                    "sample": "win",
+                    "step": 6
+                },
+                {
+                    "name": "poison",
+                    "sample": "poison",
+                    "step": 7
+                },
+                {
+                    "name": "powerdown",
+                    "sample": "powerdown",
+                    "step": 8
+                },
+                {
+                    "name": "powerup",
+                    "sample": "powerup",
+                    "step": 9
+                },
+                {
+                    "name": "shield",
+                    "sample": "shielddown",
+                    "step": 10
+                },
+                {
+                    "name": "hit",
+                    "sample": "slap",
+                    "step": 11
+                },
+                {
+                    "name": "bounce",
+                    "sample": "bounce",
+                    "step": 12
+                },
+                {
+                    "name": "step",
+                    "sample": "step",
+                    "step": 13
+                },
+                {
+                    "name": "swoosh",
+                    "sample": "swoosh",
+                    "step": 14
+                },
+                {
+                    "name": "sword",
+                    "sample": "sword",
+                    "step": 15
+                }
+            ],
+            "type": "drums"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}

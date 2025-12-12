@@ -1,0 +1,72 @@
+{
+    "patch_id": 310,
+    "name": "Chimes",
+    "instrument": "piano",
+    "min-note": 48,
+    "max-note": 108, 
+    "focus-octave": 4,
+    "key-range": 17,
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "description": "Chimes",
+    "source": "https://www.pianobook.co.uk/packs/chimes/",
+    "author": "https://www.pianobook.co.uk/profile/raymondinsa",
+    "credit": "Audio source: www.pianobook.co.uk/packs/chimes",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.35,
+            "S": 1,
+            "a shape": 4,
+            "cx": 68,
+            "cy": 33.0000007152557,
+            "d shape": 2,
+            "id": 0,
+            "level": -5.0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "chimes",
+            "samples": [
+                { "sample": "60noteC4", "step": 60 },
+                { "sample": "62noteD4", "step": 62 },
+                { "sample": "64noteE4", "step": 64 },
+                { "sample": "67noteG4", "step": 67 },
+                { "sample": "69noteA4", "step": 69 },
+                { "sample": "72noteC5", "step": 72 },
+                { "sample": "74noteD5", "step": 74 },
+                { "sample": "76noteE5", "step": 76 },
+                { "sample": "79noteG5", "step": 79 },
+                { "sample": "81noteA5", "step": 81 },
+                { "sample": "84noteC6", "step": 84 },
+                { "sample": "86noteD6", "step": 86 },
+                { "sample": "88noteE6", "step": 88 },
+                { "sample": "91noteG6", "step": 91 },
+                { "sample": "93noteA6", "step": 93 },
+                { "sample": "96noteC7", "step": 96 },
+                { "sample": "98noteD7", "step": 98 },
+                { "sample": "100noteE7", "step": 100 },
+                { "sample": "103noteG7", "step": 103 },
+                { "sample": "105noteA7", "step": 105 },
+                { "sample": "107noteB7", "step": 107 },
+                { "sample": "108noteC8", "step": 108 }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 5,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}

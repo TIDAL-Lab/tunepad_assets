@@ -1,0 +1,61 @@
+{
+    "patch_id": 308,
+    "name": "Billie Bass",
+    "instrument": "bass",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "description": "Not my lover",
+    "min-note": 21,
+    "max-note": 60,
+    "focus-octave": 1,
+    "key-range": 17,
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 1.0,
+            "S": 1,
+            "a shape": 4,
+            "d shape": 2,
+            "id": 0,
+            "level": 0.0,
+            "r shape": 0.25,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "piano",
+            "samples": [
+                    {
+                      "sample": "BillieBassFsharp1",
+                      "step": 30
+                    },
+                    {
+                      "sample": "BillieBassB1",
+                      "step": 35
+                    },
+                    {
+                      "sample": "BillieBassFsharp2",
+                      "step": 42
+                    },
+                    {
+                      "sample": "BillieBassB2",
+                      "step": 47
+                    }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 5,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}

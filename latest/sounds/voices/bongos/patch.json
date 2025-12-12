@@ -1,0 +1,120 @@
+{
+    "version": "2.0",
+    "patch_id": 313,
+    "description": "Bongo drum hits",
+    "format": "tunepad-patch",
+    "instrument": "drums", 
+    "created": "2025-10-27 16:44:48.593",
+    "modified": "2025-10-27 11:15:49.079",
+    "name": "Bongos",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 1,
+            "a shape": 4,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "sample-pack": "bongos",
+            "samples": [
+                {
+                    "name": "hit",
+                    "sample": "b0",
+                    "step": 0
+                },
+                {
+                    "name": "hit",
+                    "sample": "b1",
+                    "step": 1
+                },
+                {
+                    "name": "hit",
+                    "sample": "b5",
+                    "step": 2
+                },
+                {
+                    "name": "tap",
+                    "sample": "b3",
+                    "step": 3
+                },
+                {
+                    "name": "tap",
+                    "sample": "b2",
+                    "step": 4
+                },
+                {
+                    "name": "tap",
+                    "sample": "b7",
+                    "step": 5
+                },
+                {
+                    "name": "tap",
+                    "sample": "b12",
+                    "step": 6
+                },
+                {
+                    "name": "tap",
+                    "sample": "b13",
+                    "step": 7
+                },
+                {
+                    "name": "pat",
+                    "sample": "b6",
+                    "step": 8
+                },
+                {
+                    "name": "pat",
+                    "sample": "b4",
+                    "step": 9
+                },
+                {
+                    "name": "pat",
+                    "sample": "b8",
+                    "step": 10
+                },
+                {
+                    "name": "pat",
+                    "sample": "b9",
+                    "step": 11
+                },
+                {
+                    "name": "pat",
+                    "sample": "b10",
+                    "step": 12
+                },
+                {
+                    "name": "tock",
+                    "sample": "b11",
+                    "step": 13
+                },
+                {
+                    "name": "double",
+                    "sample": "double",
+                    "step": 14
+                },
+                {
+                    "name": "roll",
+                    "sample": "roll",
+                    "step": 15
+                }
+            ],
+            "type": "drums"
+        }
+    ],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}

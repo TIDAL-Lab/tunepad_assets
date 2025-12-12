@@ -1,0 +1,70 @@
+{
+    "patch_id": 9,
+    "name": "Grand Piano",
+    "instrument": "piano",
+    "min-note": 21,
+    "max-note": 108,
+    "focus-octave": 4,
+    "key-range": 17,
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "description": "Yamaha S6 grand piano",
+    "source": "https://www.pianobook.co.uk/packs/gentle-grand/",
+    "author": "https://www.pianobook.co.uk/profile/dan-keen/",
+    "license": "https://www.pianobook.co.uk/about/",
+    "credit" : "Audio source: www.pianobook.co.uk/packs/gentle-grand",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.5,
+            "S": 1,
+            "a shape": 4,
+            "cx": 68,
+            "cy": 33.0000007152557,
+            "d shape": 2,
+            "id": 0,
+            "level": 2.0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "piano",
+            "samples": [
+                { "sample": "24noteC1", "step": 24 },
+                { "sample": "27noteEb1", "step": 27 },
+                { "sample": "31noteG1", "step": 31 },
+                { "sample": "35noteB1", "step": 35 },
+                { "sample": "38noteD2", "step": 38 },
+                { "sample": "42noteGb2", "step": 42 },
+                { "sample": "45noteA2", "step": 45 },
+                { "sample": "49noteDb3", "step": 49 },
+                { "sample": "52noteE3", "step": 52 },
+                { "sample": "56noteAb3", "step": 56 },
+                { "sample": "63noteEb4", "step": 63 },
+                { "sample": "66noteGb4", "step": 66 },
+                { "sample": "73noteDb5", "step": 73 },
+                { "sample": "76noteE5", "step": 76 },
+                { "sample": "80noteAb5", "step": 80 },
+                { "sample": "87noteEb6", "step": 87 },
+                { "sample": "90noteGb6", "step": 90 },
+                { "sample": "99noteEb7", "step": 99 },
+                { "sample": "105noteA7", "step": 105 }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 5,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}
