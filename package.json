@@ -1,0 +1,22 @@
+{
+    "name": "tunepad_assets",
+    "version": "1.0.0",
+    "description": "Static assets server",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TIDAL-Lab/tunepad_assets.git"
+    },
+    "author": "Michael Horn",
+    "bugs": {
+        "url": "https://github.com/TIDAL-Lab/tunepad_assets/issues"
+    },
+    "homepage": "https://github.com/TIDAL-Lab/tunepad_assets#readme",
+    "dependencies": {
+        "express": "^5.2.1"
+    }
+}
