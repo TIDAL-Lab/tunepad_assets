@@ -27,9 +27,9 @@
                     "name": "kick"
                 },
                 {
-                    "sample": "rideBell",
+                    "sample": "kick2",
                     "step": 1,
-                    "name": "ride"
+                    "name": "kick"
                 },
                 {
                     "sample": "snare1",
@@ -82,9 +82,9 @@
                     "name": "shaker"
                 },
                 {
-                    "sample": "kick2",
+                    "sample": "rideBell",
                     "step": 12,
-                    "name": "kick"
+                    "name": "ride"
                 },
                 {
                     "sample": "ride",
