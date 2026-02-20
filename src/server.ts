@@ -91,17 +91,6 @@ async function startServer() {
             res.status(500).json( { success : false, error });
         }
     });
-
-    // direct access an audio sample file
-    app.get('/audio/:sample_id', async (req, res) => {
-        const sample_id = req.params.sample_id;
-        const sample = await audioSampleModel.retrieve(sample_id);
-        if (sample) {
-            res.write(sample.data);
-        } else {
-            res.status(404).send("Audio sample not found.");
-        }
-    });
 }
 
 
